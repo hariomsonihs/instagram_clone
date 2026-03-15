@@ -41,6 +41,4 @@ lib/generated_plugin_registrant.dart
 .DS_Store
 Thumbs.db
 
-# Screenshots (user adds their own)
-screenshots/*.png
-screenshots/*.jpg
+# Screenshots tracked (add your own .png/.jpg files here)
