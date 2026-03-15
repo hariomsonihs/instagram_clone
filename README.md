@@ -28,7 +28,7 @@
 
 | Home Feed | Stories Tray | Post Card | Zoom Viewer |
 |:---------:|:------------:|:---------:|:-----------:|
-| ![Home Feed](screenshots/home_feed.png) | ![Stories](screenshots/stories.png) | ![Post](screenshots/post_card.png) | ![Zoom](screenshots/zoom.png) |
+| ![Home Feed](screenshots/home.jpeg) | ![Stories](screenshots/story.jpeg) | ![Post](screenshots/post.jpeg) | ![Zoom](screenshots/zoom.jpeg) |
 
 | Shimmer Loading | Like Toggle | Bottom Nav | Infinite Scroll |
 |:--------------:|:-----------:|:----------:|:---------------:|
