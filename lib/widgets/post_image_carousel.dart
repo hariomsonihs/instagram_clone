@@ -1,8 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import 'image_zoom_viewer.dart';
-
 class PostImageCarousel extends StatefulWidget {
   const PostImageCarousel({super.key, required this.imageUrls});
 
@@ -39,27 +37,18 @@ class _PostImageCarouselState extends State<PostImageCarousel> {
           PageView.builder(
             controller: _pageController,
             itemCount: widget.imageUrls.length,
-            onPageChanged: (index) {
-              setState(() {
-                _currentPage = index;
-              });
-            },
+            onPageChanged: (index) => setState(() => _currentPage = index),
             itemBuilder: (context, index) {
-              final imageUrl = widget.imageUrls[index];
-
-              return GestureDetector(
-                onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => ImageZoomViewer(imageUrl: imageUrl),
-                    ),
-                  );
-                },
+              return InteractiveViewer(
+                minScale: 1.0,
+                maxScale: 4.0,
+                clipBehavior: Clip.hardEdge,
                 child: CachedNetworkImage(
-                  imageUrl: imageUrl,
+                  imageUrl: widget.imageUrls[index],
                   fit: BoxFit.cover,
                   width: width,
-                  placeholder: (context, _) => Container(
+                  height: width,
+                  placeholder: (_, __) => Container(
                     color: const Color(0xFFF4F4F4),
                     alignment: Alignment.center,
                     child: const SizedBox(
@@ -73,7 +62,7 @@ class _PostImageCarouselState extends State<PostImageCarousel> {
                     alignment: Alignment.center,
                     child: const Icon(
                       Icons.broken_image_outlined,
-                      color: Colors.black54,
+                      color: Colors.black38,
                       size: 34,
                     ),
                   ),
@@ -88,13 +77,13 @@ class _PostImageCarouselState extends State<PostImageCarousel> {
               right: 0,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: List<Widget>.generate(
+                children: List.generate(
                   widget.imageUrls.length,
                   (index) => AnimatedContainer(
                     duration: const Duration(milliseconds: 200),
                     margin: const EdgeInsets.symmetric(horizontal: 2.5),
-                    width: 6,
-                    height: 6,
+                    width: _currentPage == index ? 8 : 6,
+                    height: _currentPage == index ? 8 : 6,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: _currentPage == index
