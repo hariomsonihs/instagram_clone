@@ -30,9 +30,9 @@
 |:---------:|:------------:|:---------:|:-----------:|
 | ![Home Feed](screenshots/home.jpeg) | ![Stories](screenshots/story.jpeg) | ![Post](screenshots/post.jpeg) | ![Zoom](screenshots/zoom.jpeg) |
 
-| Shimmer Loading | Like Toggle | Bottom Nav | Infinite Scroll |
-|:--------------:|:-----------:|:----------:|:---------------:|
-| ![Shimmer](screenshots/shimmer.png) | ![Like](screenshots/like.png) | ![Nav](screenshots/bottom_nav.png) | ![Scroll](screenshots/infinite_scroll.png) |
+| Like Toggle | Bottom Nav |
+|:--------------:|:---------------:|
+| ![Like](screenshots/like.jpeg) | ![Nav](screenshots/bottom.jpeg) |
 
 > 📁 Place your screenshots inside a `screenshots/` folder in the project root.
 
