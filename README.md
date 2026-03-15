@@ -583,7 +583,7 @@ Made with ❤️ using Flutter
 
 <div align="center">
 
-<img src="https://i.pravatar.cc/120?img=12" width="90" style="border-radius:50%" />
+<img src="https://github.com/hariomsonihs/instagram_clone/blob/main/screenshots/profile_photo.jpg" width="90" style="border-radius:50%" />
 
 ### Hariom Soni
 
