@@ -34,8 +34,6 @@
 |:--------------:|:---------------:|
 | ![Like](screenshots/like.jpeg) | ![Nav](screenshots/bottom.jpeg) |
 
-> 📁 Place your screenshots inside a `screenshots/` folder in the project root.
-
 </div>
 
 ---
