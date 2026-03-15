@@ -535,29 +535,6 @@ PostProvider.toggleLike(postId)
 | Gradient Pink | `#DD2A7B` | Story ring mid |
 | Gradient Purple | `#8134AF` | Story ring mid |
 | Gradient Blue | `#515BD4` | Story ring end |
-
----
-
-## 🎬 Demo Video Instructions
-
-Record a 60–90 second demo using **Windows Game Bar** (`Win + G`) or OBS:
-
-| Step | What to show |
-|------|-------------|
-| 1 | Launch app — show shimmer loading for 1.5 seconds |
-| 2 | Shimmer disappears — real feed loads |
-| 3 | Scroll down slowly — show post cards, story tray |
-| 4 | Keep scrolling to bottom — show spinner, new posts load |
-| 5 | Tap ❤️ on a post — icon turns red, count increases |
-| 6 | Tap ❤️ again — icon turns black, count decreases |
-| 7 | Tap 🔖 — bookmark becomes filled |
-| 8 | Tap 💬 or ✈️ — "Feature coming soon" snackbar appears |
-| 9 | Tap a post image — full screen opens |
-| 10 | Pinch to zoom in and out |
-| 11 | Tap X to close zoom viewer |
-| 12 | Pull down from top — pull-to-refresh triggers |
-| 13 | Show bottom nav bar tabs |
-
 ---
 
 ## 📝 Notes
