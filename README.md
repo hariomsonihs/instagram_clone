@@ -576,3 +576,28 @@ Made with ❤️ using Flutter
 [![Flutter](https://img.shields.io/badge/Made%20with-Flutter-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev)
 
 </div>
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+<img src="https://i.pravatar.cc/120?img=12" width="90" style="border-radius:50%" />
+
+### Hariom Soni
+
+*Flutter Developer · Full Stack Enthusiast*
+
+<br/>
+
+[![Email](https://img.shields.io/badge/Email-hariomsoni0818%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hariomsoni0818@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hariomsonihs-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hariomsonihs)
+[![Instagram](https://img.shields.io/badge/Instagram-hariomsonihs-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hariomsonihs)
+[![Phone](https://img.shields.io/badge/Phone-7667110195-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+917667110195)
+
+<br/>
+
+> *"Building pixel-perfect apps, one widget at a time."*
+
+</div>
