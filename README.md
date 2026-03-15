@@ -14,6 +14,8 @@
 
 > Built with clean architecture, Provider state management, and pixel-perfect UI matching the real Instagram app.
 
+> 📱 **This app is designed and optimized for Android & iOS phones only.** Web and desktop builds are available but the UI is not adapted for large screens.
+
 </div>
 
 ---
@@ -559,6 +561,11 @@ Record a 60–90 second demo using **Windows Game Bar** (`Win + G`) or OBS:
 ---
 
 ## 📝 Notes
+
+> ⚠️ **Platform Notice**
+> This app is **optimized for Android/iOS phones only**.
+> The UI layout, spacing, font sizes, and bottom navigation are designed specifically for mobile screens.
+> Running on Windows desktop or Chrome browser may not look correct — use a real Android device or emulator for the best experience.
 
 - All images are loaded from the internet — **no local assets** are used
 - `picsum.photos` uses a seed so the same post always shows the same image
